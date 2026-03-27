@@ -149,7 +149,7 @@ public class GameScreen implements Screen {
 
                     points -= 25;
 
-                    if (points <= 0)
+                    if (points < 0)
                         game.setScreen(new GameOverScreen(game, score, points, (int) gameTime));
 
                     i--;
