@@ -147,7 +147,7 @@ public class GameScreen implements Screen {
 
                     spawnInterval -= 5f;
 
-                    points -= 25;
+                    points -= 10;
 
                     if (points < 0)
                         game.setScreen(new GameOverScreen(game, score, points, (int) gameTime));
